@@ -1,0 +1,13 @@
+@media (max-width: 991px) {
+    .first-row {
+        display: none;
+    }
+    
+    .other-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .no {
+        display: none;
+    }
+}

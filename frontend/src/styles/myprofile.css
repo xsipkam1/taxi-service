@@ -1,0 +1,159 @@
+.personal-profile {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+   
+    background-color: white;
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.233);
+    padding: 20px;
+}
+
+.left-col {
+    margin: 2%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-col h2{
+    display: none;
+}
+.right-col {
+    margin: 2%;
+    flex: 2;
+}
+
+.personal-profile h2 {
+    font-size: 2.5rem;
+}
+
+.user-profile-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    background-color: white;
+    margin-bottom: 2%;
+    border: 1px solid gray;
+}
+
+.user-profile-pic img {
+    width: 100%;
+}
+
+.personal-details {
+    font-size: 1.5rem;
+    color: #495057;
+
+}
+
+.settings {
+    width: 100%;
+}
+
+.settings a{
+    padding: 20px;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color:rgb(47, 90, 153);
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.settings a:hover {
+    background-color: #e6ebec; 
+}
+
+.settings .active {
+    background-color: #dfdfdf; 
+}
+
+.detail-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+  
+.label {
+    text-align: left;
+}
+
+.accordion-item .label {
+    font-weight: 500;
+}
+
+.value {
+    text-align: right;
+    font-weight: 500;
+}
+  
+.accordion-item .label {
+    font-size: 1.2rem;
+}
+
+.accordion-body {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.right-col .driver-details .driver-details-left {
+    width: 100%;
+}
+
+@media (max-width: 1199px) {
+    .right-col .driver-details {
+        flex-direction: column;
+    }
+    .right-col .driver-details .driver-details-left {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .profile-details-modal {
+        flex-direction: column;
+    }
+    .profile-details-modal .user-profile-pic {
+        width: 50%;
+    }
+    .personal-details {
+        font-size: 1rem;
+    }
+    .settings a {
+        font-size: 0.8rem;
+    }
+    .accordion-button  {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .personal-profile {
+        margin: 0;
+        border-radius: 0;
+        height: 100vh;
+        border: 0;
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .user-profile-pic {
+        width: 50%;
+    }
+    .personal-profile{
+        flex-direction: column;
+    }
+    .left-col h2 {
+        display: block;
+    }
+}
+
+
+@media (max-width: 422px) {
+    .user-profile-pic {
+        width: 90%;
+    }
+}

@@ -1,0 +1,90 @@
+.results {
+    
+    background-color: white;
+    
+}
+
+.rounded-left {
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important; 
+}
+
+.rounded-right {
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important; 
+}
+
+.buttons-on-top {
+    width: 50%;
+    justify-content: center;
+}
+
+.buttons-on-top .inactive{
+    color: rgb(0, 89, 255);
+    background-color: #fcfcfc;
+}
+
+.filter-options {
+    width: 100%;
+}
+
+.filter-options input[type="text"],
+.filter-options select {
+    background-color: #fcfcfc;
+    border: 1px solid #000000;
+    color: black;
+}
+
+.filter-options .search-bar {
+    flex: 2;
+}
+
+.filter-options .dropdown {
+    flex: 1;
+    margin: 8px;
+}
+
+.dropdown .input-group-text {
+    border-right: 0;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.dropdown .form-select {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.user-details span {
+    font-weight: 500;
+}
+
+@media (max-width: 991px) {
+    .buttons-on-top {
+        width: 100%;
+    }
+    .filter-options {
+        flex-direction: column;
+    }
+    .search-bar {
+        align-self: start;
+    }
+}
+
+@media (max-width: 565px) {
+    .filter-options input[type="text"],
+    .filter-options select,
+    .dropdown .input-group-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .buttons-on-top button {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media (max-width: 310px) {
+    .buttons-on-top button {
+        font-size: 1rem !important;
+    }
+}

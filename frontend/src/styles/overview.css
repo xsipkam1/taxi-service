@@ -1,0 +1,61 @@
+.overview {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: 2px 2px 150px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.overview i {
+    border-radius: 50%;
+    width: 4rem;
+}
+
+.overview .order-icon {
+    border: 1px solid rgb(15, 47, 185);
+    background-color: rgba(15, 47, 185, 0.11);
+}
+
+.overview .earnings-icon {
+    border: 1px solid rgb(8, 112, 21);
+    background-color: rgba(8, 112, 22, 0.11);
+}
+
+.overview .customers-icon {
+    border: 1px solid rgb(25, 174, 219);
+    background-color: rgb(25, 174, 219, 0.11);
+}
+
+.overview .drivers-icon {
+    border: 1px solid rgb(212, 181, 42);
+    background-color: rgb(212, 181, 42, 0.11);
+}
+
+@media (max-width: 1399px) {
+    .overview h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .overview {
+        margin: 0;
+        border-radius: 0;
+        border: 0;
+    }
+}
+
+@media (max-width: 835px) {
+    .overview i {
+        width: 3.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .overview i {
+        width: 3rem;
+    }
+}
+

@@ -1,0 +1,40 @@
+.logo {
+    border: 1px solid #46aae4;
+}
+
+.logo img {
+    width: 3rem;
+    height: auto;
+}
+
+
+@media (max-width: 1079px) {
+    header .nav-link{
+        font-size: 1.8vw !important;
+    }
+}
+
+@media (max-width: 881px) {
+    header .nav-link{
+        font-size: 2vw !important;
+        margin: 10px !important;
+    }
+}
+
+@media (max-width: 769px) {
+    header .nav-link{
+        font-size: 1.8vw !important;
+    }
+}
+
+@media (max-width: 767px) {
+    header .nav-link{
+        font-size: 3vw !important;
+    }
+}
+
+@media (max-width: 500px) {
+    header .nav-link{
+        font-size: 4vw !important;
+    }
+}

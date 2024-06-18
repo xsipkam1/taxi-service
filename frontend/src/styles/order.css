@@ -1,0 +1,21 @@
+.order-modal-profile-pic{
+    width: 40%;
+    height: auto;
+}
+
+.order-modal-profile-pic img{
+    border: 1px solid gray;
+}
+
+@media (max-width: 991px) {
+    .order-modal {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px) {
+    .order-modal-profile-pic{
+        width: 60%;
+    }
+}
+

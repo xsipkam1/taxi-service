@@ -1,0 +1,36 @@
+.exit {
+    position: absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    right: 2%;
+    top: 1%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.driver {
+    background-image: linear-gradient(rgb(40, 46, 77), rgba(28, 47, 100, 0.582)), url('../assets/driver.jpg');
+    background-size: cover; 
+    background-position: center 0px; 
+    background-repeat: no-repeat;
+}
+
+.form-button {
+    margin: 24px;
+}
+
+@media (max-width: 365px) {
+    .form-button {
+        font-size: 1rem !important;
+        margin: 0px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 300px) {
+    .form-button {
+        font-size: 0.8rem !important;
+    }
+}

@@ -1,0 +1,38 @@
+.background {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.192)), url('../assets/blue.jpg');
+    background-size: cover; 
+    background-position: center 0px; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+}
+
+.background h1 {
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    color: white;
+    top: 30%; 
+    left: 50%;  
+    font-size: 5vw;
+    white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+    .background h1 {
+        font-size: 10vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .background h1 {
+        font-size: 10vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .background h1 {
+        font-size: 12vw;
+        top: 25%; 
+    }
+}
+

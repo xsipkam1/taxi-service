@@ -1,0 +1,152 @@
+.result {
+    border: 0.1rem solid rgba(0, 0, 0, 0.164);
+}
+
+.profile-pic {
+    border: 0.1px solid gray;
+    flex: 1;
+    background-color: white;
+    height:fit-content;
+}
+
+.profile-pic img {
+    width: 100%;
+}
+
+.user-details {
+    padding: 25px;
+    flex: 2;
+}
+
+.user-details h2 {
+    font-size: 50px;
+}
+
+.user-details p {
+    margin: 0;
+    font-size: 25px;
+}
+
+.options {
+    flex: 1;
+    justify-content: center;
+}
+
+.one-line-details {
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+}
+
+@media (max-width: 1399px) {
+    .user-details h2 {
+        font-size: 40px;
+    }
+    .user-details p {
+        font-size: 20px;
+    }
+    .options button {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .options button {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .user-details {
+        padding: 0;
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 991px) {
+    .result {
+        flex-direction: column;
+    }
+    .options {
+        margin-top: 3%;
+    }
+    .user-details h2 {
+        font-size: 34px;
+    }
+    .options button {
+        font-size: 1rem !important;
+        padding: 8px !important;
+    }
+}
+
+@media (max-width: 664px) {
+    .user-details p {
+        font-size: 18px;
+    }
+    .options button{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 565px) {
+    .options button{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 539px) {
+    .user-details {
+        width: 50%;
+    }
+    .user-details h2 {
+        font-size: 2rem;
+    }
+    .user-details p {
+        margin-bottom: 0;
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 533px) {
+    .options button {
+        font-size: 0.8rem !important;
+        padding: 7px !important;
+    }
+    .user-details h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 462px) {
+    .user-details h2 {
+        font-size: 22px;
+    }
+    .user-details p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 421px) {
+    .user-details h2 {
+        font-size: 1.5rem;
+    }
+    .user-details p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 406px) {
+    .one-line-details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-pic {
+        width: 50%;
+    }
+    .user-details {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
